@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Đảo ngược các phần tử trong mảng</title>
+</head>
+<body>
+</body>
+<script>
+let x = ['tao', 'ít', 'tiền', 'lắm', 'nhé'];
+let first = 0;
+let last = x.length - 1;
+while (first < last){
+    let changeslot = x[first];
+    x[first] = x[last];
+    x[last] = changeslot;
+    first++;
+    last--;
+}
+
+</script>
+</html>
